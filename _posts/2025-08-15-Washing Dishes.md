@@ -14,7 +14,7 @@ I started this project by learning basic commands like "sample", if-else stateme
 > probability <- c(0.25, 0.75)
 
 2) I moved to creating the weighted "coin".
-> rolling <- function() {
+# rolling <- function() {
 > spin <- sample(randomizer, size=1, prob = probability)
 > if (spin==1) {
 > print("Jessica")
