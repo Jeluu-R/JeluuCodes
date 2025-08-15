@@ -1,4 +1,4 @@
 ---
-title: Welcome to my blog
+title: My First Project on R - Washing Dishes Randomizer
 ---
 
