@@ -9,27 +9,27 @@ However, as you will notice soon, the computer isn't completely unbiased. I may 
 
 I started this project by learning basic commands like "sample", if-else statements, concatenanting, replicating and using a table. This taught me how to roll two dice, which built the groundwork for my project. 
 
-1) I started by outlining my variables
-> randomizer <- 1:2
-> probability <- c(0.25, 0.75)
+1) I started by outlining my variables.
+<pre>randomizer <- 1:2
+   probability <- c(0.25, 0.75)</pre>
 
 2) I moved to creating the weighted "coin".
 
-<pre> rolling <- function() {
-spin <- sample(randomizer, size=1, prob = probability)
+<pre>rolling <- function() {
+  spin <- sample(randomizer, size=1, prob = probability)
 if (spin==1) {
-print("Jessica")
-}
+  print("Jessica")
+ }
 else {
-print("Christopher")
-}
+  print("Christopher")
+ }
 } </pre>
 
 3) To test:
->  rolling()
+<pre>rolling()</pre>
 
 4) Proof of efficiency:
->  proof <- replicate(50, rolling())
-> table(proof)
+<pre>proof <- replicate(50, rolling())
+    table(proof)</pre>
 
 And there you go! I'm not too sure how to better format the code and my results, but I hope you enjoyed reading this small blog! Now I'll only have to do the dishes 25% of the time!
