@@ -1,4 +1,4 @@
 ---
-title: My First Project on R - Washing Dishes Randomizer
+title: Jessica's Personal Projects!! (Using R)
 ---
 
