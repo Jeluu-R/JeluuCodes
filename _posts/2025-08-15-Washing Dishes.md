@@ -33,7 +33,8 @@ else {
 4) Proof of efficiency:
 <pre>proof <- replicate(50, rolling())
     table(proof)</pre>
-> Example of frequency table produced:
+Example of frequency table produced:
+
 > Christopher: 39
 
 > Jessica: 11
