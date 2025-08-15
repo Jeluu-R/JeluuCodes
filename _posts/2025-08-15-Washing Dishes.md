@@ -11,24 +11,24 @@ I started this project by learning basic commands like "sample", if-else stateme
 
 1) I started by outlining my variables
 >   randomizer <- 1:2
-    probability <- c(0.25, 0.75)
+>    probability <- c(0.25, 0.75)
 
 2) I moved to creating the weighted "coin".
 >   rolling <- function() {
-   spin <- sample(randomizer, size=1, prob = probability)
-  if (spin==1) {
-    print("Jessica")
-  }
-    else {
-      print("Christopher")
-    }
-  }
+> spin <- sample(randomizer, size=1, prob = probability)
+> if (spin==1) {
+>    print("Jessica")
+>  }
+>    else {
+>      print("Christopher")
+>    }
+>  }
 
 3) To test:
 >  rolling()
 
 4) Proof of efficiency:
 >  proof <- replicate(50, rolling())
-   table(proof)
+>   table(proof)
 
 And there you go! I'm not too sure how to better format the code and my results, but I hope you enjoyed reading this small blog! Now I'll only have to do the dishes 25% of the time!
