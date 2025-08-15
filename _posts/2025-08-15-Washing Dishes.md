@@ -36,4 +36,5 @@ else {
 > Example of frequency table produced:
 > Christopher: 39
 > Jessica: 11
+
 And there you go! I'm not too sure how to better format the code and my results, but I hope you enjoyed reading this small blog! Now I'll only have to do the dishes 25% of the time!
