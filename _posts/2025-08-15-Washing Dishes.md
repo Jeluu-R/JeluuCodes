@@ -5,7 +5,7 @@ date: 2025-08-15
 Hi there!
 This is my very first project using R with 0 previous coding experience. Why R? I've had a bit of exposure to the coding language through some of my extracurriculars involving biostatistical research. Although other coding languages never appealed to me, I saw first-hand how R could be used to perform complex tasks to solve problems that I'm interested in!
 
-With all of that being said, I present to you my own rendition of a wheel of fortune: "Who's Washing the Dishes Tonight?". My younger brother and I always bicker about who will do the dishes, so I wanted to solve this problem by having a computer decide for us!
+With all of that being said, I present to you my own rendition of a wheel of fortune: "Who's Washing the Dishes Tonight?". My younger brother and I always bicker about dishwashing duty, and I'm on a losing streak. So I wanted to solve this problem by having a computer decide for us!
 
 However, as you will notice soon, the computer isn't completely unbiased. I may or may not have tipped the odds in my favour. ;)
 
